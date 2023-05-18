@@ -3,29 +3,13 @@
 	"mob_effect": "minecraft:poison",
 	"target": "ARROW_TARGET",
 	"values": {
-		"epic": {
-			"duration": {
-				"min": 20,
-				"steps": 3,
-				"step": 20
-			},
-			"amplifier": {
-				"min": 0,
-				"steps": 1,
-				"step": 1
-			}
-		},
 		"mythic": {
 			"duration": {
 				"min": 40,
 				"steps": 5,
 				"step": 20
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 2,
-				"step": 1
-			}
+			"amplifier": 0
 		},
 		"ancient": {
 			"duration": {
@@ -33,7 +17,11 @@
 				"steps": 4,
 				"step": 40
 			},
-			"amplifier": 3
+			"amplifier": {
+				"min": 0,
+				"steps": 1,
+				"step": 1
+			}
 		}
 	},
 	"types": [

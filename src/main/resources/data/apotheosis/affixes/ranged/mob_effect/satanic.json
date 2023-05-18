@@ -9,11 +9,7 @@
 				"steps": 2,
 				"step": 20
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 3,
-				"step": 1
-			}
+			"amplifier": 0
 		},
 		"ancient": {
 			"duration": {
@@ -21,7 +17,7 @@
 				"steps": 4,
 				"step": 40
 			},
-			"amplifier": 4
+			"amplifier": 0
 		}
 	},
 	"types": [
